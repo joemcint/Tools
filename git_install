@@ -1,0 +1,4 @@
+Check if Git is installed
+https://git-scm.com/downloads/win 
+
+git --version
