@@ -25,9 +25,11 @@ https://git-scm.com/downloads/win
         <git add test.txt>
     b. Add all files
         <git add .>
+    c. Add all files with an extension
+        <git add *.txt>
 
 6. The git commit command is used in Git to record a snapshot of your project's changes to the local repository. Think of a commit as a save point or a milestone in your project's history. Each commit is assigned a unique ID, allowing you to track changes, see who made them, and when they were made. 
-    <git commit -m 'added test.txt file'>
+    <git commit -m "added test.txt file">
 
 7. Use git push to move your changes to your remote repository (github)
 
