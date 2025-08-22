@@ -10,13 +10,13 @@
 
 3. git remote add origin <repository_url>
     <git remote add origin https://github.com/joemcint/intro_to_sql>
+    <git remote set-url origin <NEW_GIT_URL_HERE>>
 
 4. Use git checkout command to create a new branch named main.
     <git checkout -b main>
 
 5. Use git pull to grab your changes from your remote repository.
     <git pull origin main>
-
 6. git add allows you to select which modified files or specific changes within files you want to include in the next commit snapshot. 
     a. Add One file
         <git add test.txt>
