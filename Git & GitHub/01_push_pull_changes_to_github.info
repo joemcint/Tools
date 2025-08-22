@@ -1,26 +1,23 @@
 1. Installing Git
-Check if Git is installed
-https://git-scm.com/downloads/win 
+    Check if Git is installed
+    https://git-scm.com/downloads/win 
+    <git --version>
 
-<git --version>
+2. Create a folder where you would like to store your local files from the repository e.g. <intro_to_sql> and change to that directory using <cd C:\Users\joemc\codedex.io Projects\intro_to_sql>.
 
-2. The git init command creates a new Git repository. It prepares a directory to be used for version control by Git, allowing you to track and manage changes to files within that directory. 
-
-<git init>
-
-3. Create a folder where you would like to store your local files from the repository e.g. <intro_to_sql> and change to that directory.
-
-<cd C:\Users\joemc\codedex.io Projects\intro_to_sql>
+3. The git init command creates a new Git repository. It prepares a directory to be used for version control by Git, allowing you to track and manage changes to files within that directory. 
+    <git init>
 
 3. git remote add origin <repository_url>
+    <git remote add origin https://github.com/joemcint/intro_to_sql>
 
-<git remote add origin https://github.com/joemcint/intro_to_sql>
+4. Use git checkout command to create a new branch named main.
+    <git checkout -b main>
 
-4. Use git pull to grab your changes from your remote repository.
+5. Use git pull to grab your changes from your remote repository.
+    <git pull origin main>
 
-<git pull origin main>
-
-5. git add allows you to select which modified files or specific changes within files you want to include in the next commit snapshot. 
+6. git add allows you to select which modified files or specific changes within files you want to include in the next commit snapshot. 
     a. Add One file
         <git add test.txt>
     b. Add all files
@@ -28,10 +25,13 @@ https://git-scm.com/downloads/win
     c. Add all files with an extension
         <git add *.txt>
 
-6. The git commit command is used in Git to record a snapshot of your project's changes to the local repository. Think of a commit as a save point or a milestone in your project's history. Each commit is assigned a unique ID, allowing you to track changes, see who made them, and when they were made. 
+8. The <git status> command is used to check the status of your files. 
+    a. Staged files are ready to be committed.
+    b. Unstaged files are not yet ready to be committed.
+    c. Untracked files are new files that Git has not seen before.
+
+7. The git commit command is used in Git to record a snapshot of your project's changes to the local repository. Think of a commit as a save point or a milestone in your project's history. Each commit is assigned a unique ID, allowing you to track changes, see who made them, and when they were made. 
     <git commit -m "added test.txt file">
 
-7. Use git push to move your changes to your remote repository (github)
-
-<git push origin main>
-
+8. Use git push to move your changes to your remote repository (github)
+    <git push origin main>
