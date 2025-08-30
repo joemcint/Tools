@@ -9,8 +9,8 @@
     <git init>
 
 4. git remote add origin <repository_url>
-    <git remote add origin https://github.com/joemcint/intro_to_sql>
-    <git remote set-url origin <NEW_GIT_URL_HERE>>
+    <git remote add origin https://github.com/joemcint/Data-Science>
+    <git remote set-url origin https://github.com/joemcint/Tools>
 
 5. Check which repository you are currently in.
     <git remote -v>
